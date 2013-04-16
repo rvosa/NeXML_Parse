@@ -1,0 +1,11 @@
+NeXML_Parse
+===========
+
+R code for parsing NeXML file. This code extract all otu id and plot phylogenetic tree for user specified no of node.
+To run this file :
+ 1. download nexParse.R and phylo.xml in a directory
+ 2. start R session and change directory to the current directory having downloaded files.
+ 3. In R console type >source("nexParse.R")
+ 4. then >plot(rtree(nexParse(n))) where n= no of node you want in tree.
+
+This code has been written for phylo.xml. Users are welcome to comment and suggest changes.
